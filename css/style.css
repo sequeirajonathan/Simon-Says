@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+body {
+  font-family: lato;
+  background: #dfdfef;
+  padding: 10vw;
+}
+
+#game-board {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border: 3px solid #122125;
+  border-radius: 50%;
+}
+
+#controls {
+  text-align: center;
+  margin-top: -50px;
+}
+#controls button {
+  margin: 0 5px;
+  width: 75px;
+  border: none;
+  background: #122125;
+  color: #ccc;
+  font-family: lato;
+  font-size: 15px;
+  border-radius: 20px;
+}
+#controls button:hover {
+  background: #30303f;
+}
+
+.btn {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #122125;
+}
+
+#red {
+  border-top-left-radius: 100%;
+  background: #CF4444;
+  color: #CF4444;
+}
+#red.lighten {
+  background: #d96d6d;
+  color: #d96d6d;
+}
+
+#yellow {
+  border-top-right-radius: 100%;
+  background: #EBBB54;
+  color: #EBBB54;
+}
+#yellow.lighten {
+  background: #f0cd82;
+  color: #f0cd82;
+}
+
+#green {
+  border-bottom-left-radius: 100%;
+  background: #94BA65;
+  color: #94BA65;
+}
+#green.lighten {
+  background: #acca88;
+  color: #acca88;
+}
+
+#blue {
+  border-bottom-right-radius: 100%;
+  background: #2790B0;
+  color: #2790B0;
+}
+#blue.lighten {
+  background: #37aed3;
+  color: #37aed3;
+}
+
+#middle {
+  position: relative;
+  top: -193px;
+  background: #122125;
+  color: #dfdfef;
+  height: 75px;
+  width: 75px;
+  text-align: center;
+  padding: 1px;
+  margin: auto;
+  border-radius: 50%;
+}
+#middle p {
+  font-size: 30px;
+  line-height: 0;
+  margin-top: 50%;
+}
